@@ -1,0 +1,10 @@
+These are the available config options for making requests. Only the url is required. Requests will default to GET if method is not specified.
+
+`url` is the server URL that will be used for the request
+
+`method` is the request method to be used when making the request
+  method: 'get', // default
+
+  `headers` are custom headers to be sent
+
+  `data` is the data to be sent as the request body
